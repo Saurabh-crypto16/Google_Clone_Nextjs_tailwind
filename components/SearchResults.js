@@ -1,4 +1,6 @@
 //Google API provides all values related to Search
+//whenever mapping something we should always use keys
+//<a> is used to create hyperlinks
 
 import PaginationButtons from "./PaginationButtons";
 

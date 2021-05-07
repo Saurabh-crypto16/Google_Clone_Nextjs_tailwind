@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/*Custom classes for the btn(button) and link components*/
+
 @layer components {
   .btn {
     @apply bg-[#f8f9fa] p-3 rounded-md ring-gray-200 text-sm text-gray-800

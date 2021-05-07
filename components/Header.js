@@ -9,6 +9,7 @@ function Header() {
   const router = useRouter();
   const searchInputRef = useRef(null);
 
+  //redirects to the new search page
   const search = (e) => {
     e.preventDefault(); //to stop refreshing page
     const term = searchInputRef.current.value; //getting current search input
@@ -43,6 +44,7 @@ function Header() {
                         duration-100 transform hover:scale-125"
             onClick={() => (searchInputRef.current.value = "")}
           />
+          {/*Microphone and SearchIcon are hidden until the small breakpoint is hit*/}
           <MicrophoneIcon
             className="mr-3 h-6 hidden sm:inline-flex text-blue-500
                         border-l-2 pl-4 border-gray-300"
@@ -53,7 +55,7 @@ function Header() {
           </button>
         </form>
         <Avatar
-          className="ml-auto"
+          className="ml-auto" //allows form to take max width in search screen
           url="https://images.unsplash.com/photo-1504600770771-fb03a6961d33?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNxdWFyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
         />
       </div>

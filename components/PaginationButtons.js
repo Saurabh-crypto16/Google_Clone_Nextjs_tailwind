@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import Link from "next/link";
+import Link from "next/link"; //for Client-side transitions between routes
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
 
 function PaginationButtons() {
@@ -9,7 +9,7 @@ function PaginationButtons() {
   return (
     <div className="flex justify-between max-w-lg text-blue-700 mb-10">
       {startIndex >= 10 && (
-        <Link
+        <Link //It means if you click on ChevronLeftIcon your link will change to herf value
           href={`/search?term=${router.query.term}&start=${startIndex - 10}`}
         >
           <div
