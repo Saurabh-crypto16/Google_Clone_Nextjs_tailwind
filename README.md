@@ -5,7 +5,7 @@ It uses Tailwind css to style which is so much easier and faster to implement an
 
 
 
-<img src="https://github.com/Saurabh-crypto16/Google_Clone_Nextjs_tailwind/blob/master/screenshots/hello%20world%20-%20Google%20Search%20-%20Brave%2003-05-2021%2022_32_57.png" width="1000" height="800" />
+<img src="https://github.com/Saurabh-crypto16/Google_Clone_Nextjs_tailwind/blob/master/screenshots/hello%20world%20-%20Google%20Search%20-%20Brave%2003-05-2021%2022_32_57.png" width="1800" height="700" />
 
 <img src="https://github.com/Saurabh-crypto16/Google_Clone_Nextjs_tailwind/blob/master/screenshots/hello%20world%20-%20Google%20Search%20-%20Brave%2003-05-2021%2022_33_17.png" width="1000" height="800" />
 
